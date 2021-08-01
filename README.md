@@ -24,10 +24,17 @@ The finding that almost everyone can produce and recognize the associated facial
 The position of a face is found in a video frame or image, which can be achieved by applying the Viola Jones Cascaded Classifier algorithm, for example. This might sound sophisticated, but you can actually find this technology in the camera of your iPhone or Android smartphone as well. The result is a face box framing the detected face.
 ## Feature detection
 Within the detected face, facial landmarks such as eyes and eye corners, brows, mouth corners, the nose tip etc. are detected. After this, an internal face model is adjusted in position, size, and scale in order to match the respondent’s actual face. You can imagine this like an invisible virtual mesh that is put onto the face of the respondent: Whenever the respondent’s face moves or changes expressions, the face model adapts and follows instantaneously. As the name indicates, the face model is a simplified version of the respondent’s actual face. It has much less details, (so-called features) compared to the actual face, however it contains exactly those face features to get the job done. Exemplary features are single landmark points (eyebrow corners, mouth corners, nose tip) as well as feature groups (the entire mouth, the entire arch of the eyebrows etc.), reflecting the entire “Gestalt” of an emotionally indicative face area.
-![image](https://user-images.githubusercontent.com/73308203/127771532-08d7a253-b910-4076-8eb2-1759f9c49ef1.png)
-![image](https://user-images.githubusercontent.com/73308203/127771541-1af4926e-744c-4cdf-bf7d-5a848bfecfcc.png)
-
 ## Feature classification
 Once the simplified face model is available, position and orientation information of all the key features is fed as input into classification algorithms which translate the features into Action Unit codes, emotional states, and other affective metrics.
 ![image](https://user-images.githubusercontent.com/73308203/127771544-4eaa6195-a252-4243-ba5c-6f3268f7479b.png)
+# Facial Expression Analysis (FEA): Application fields
+1. Consumer neuroscience and neuromarketing
+2. Media testing & advertisement
+3. Psychological research
+4. Clinical psychology and psychotherapy
+5. Medical applications & plastic surgery
+6. Software UI & website design
+7. Engineering of artificial social agents (avatars) 
 
+# Reference
+https://cise.ufl.edu/research/learndialogue/pdf/LearnDialogue-Grafsgaard-EDM-2013.pdf
