@@ -1,7 +1,5 @@
 # facial-expression recognition-with-Deep-Learning
-Implemented a face detection modelusing Detectron2and several differentmachine learning algorithms such ask-nearest neighbors (”KNN”), multi-layer perceptron (”MLP”),convolutional neural net (”CNN”)for the facial expression recognition.
-
-Tech used:Python, OpenCV, ML Techniques
+Deep learning is a newly-emerged machine learning theory, and has received extensive attentions in pattern recognition, signal processing, computer vision, etc. Deep belief networks (DBNs) is a representative method of deep learning and has a strong ability of unsupervised feature learning. by combining DBNs with multi-layer perceptron (MLP), a new method of facial expression recognition based on deep learning is proposed. The proposed method integrates the DBNs's advantage of unsupervised feature learning with the MLP's classification advantage. Experimental results on two benchmarking facial expression databases, i.e., the JAFFE database and the Cohn-Kanade database, demonstrate the promising performance of the proposed method for facial expression recognition, outperforming the other state-of-the-art classification methods such as the nearest neighbour, MLP, support vector machine, the nearest subspace, as well as sparse representation-based classification.
 
 # facial-expression
 Our face is an intricate, highly differentiated part of our body – in fact, it is one of the most complex signal systems available to us. It includes over 40 structurally and functionally autonomous muscles, each of which can be triggered independently of each other.
