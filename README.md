@@ -8,7 +8,7 @@ Our face is an intricate, highly differentiated part of our body – in fact, it
 
 The facial muscular system is the only place in our body where muscles are either attached to a bone and facial tissue (other muscles in the human body connect to two bones), or to facial tissue only such as the muscle surrounding the eyes or lips.
 
-# Can you classify emotions?
+# Classify the emotions
 Facial expressions are only one out of many correlates of emotion, but they might be the most apparent ones. Humans are obviously able to produce thousands of slightly varying sets of facial expressions – however, there is only a small set of distinctive facial configurations that almost every one associates with certain emotions, irrespective of gender, age, cultural background and socialization history.
 
 These categorical emotions are:
@@ -18,3 +18,8 @@ These categorical emotions are:
 ekmans basic emotions
 
 The finding that almost everyone can produce and recognize the associated facial expressions of these emotions has led some researchers to the (debated!) assumption that they are universal.
+
+# The technology behind automatic facial coding
+## Face detection
+The position of a face is found in a video frame or image, which can be achieved by applying the Viola Jones Cascaded Classifier algorithm, for example. This might sound sophisticated, but you can actually find this technology in the camera of your iPhone or Android smartphone as well. The result is a face box framing the detected face.
+
